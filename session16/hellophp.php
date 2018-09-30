@@ -11,8 +11,8 @@
 		echo "y";
 	}
 	//
-	$a = 87;
-	$b = 8;
+	$a = 91;
+	$b = 7;
 	function tinhTong($a,$b){
 		$c = $a + $b;
 		return $c;
@@ -69,10 +69,6 @@
 			else
 				echo " va k chia het cho 3";
 		}
-
-
-
-
 	// <form action="hellophp.php" method="post">
 	// 	Name : <input type="text" name="name"><br>
 	// 	E-mail : <input type="text" name="email"><br>
