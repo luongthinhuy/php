@@ -35,8 +35,8 @@
 		}
 	}
 	$customer = new Customer();
-		$customer->Edit();
-		$customer->Register();
-		$customer->Login();
-		$customer->View();
+	$customer->Edit();
+	$customer->Register();
+	$customer->Login();
+	$customer->View();
 ?>
