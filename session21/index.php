@@ -1,6 +1,6 @@
 <?php 
-  //session_start();
-  include 'controller/backend_controller.php';
+  session_start();
+  include 'controller/frontend_controller.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,8 +14,8 @@
 
 <body>
   <?php 
-      $controller = new BackendController();
-      $controller->handleRequest();
-    ?>
+    $controller = new FrontendController();
+    $controller->handleRequest();
+  ?>
 </body>
 </html>
