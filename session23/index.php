@@ -9,8 +9,8 @@
 </head>
 <body>
 <?php
-	include 'controller/backend_controller.php';
-	$handleRequest = new BackendController();
+	include 'controller/frontend_controller.php';
+	$handleRequest = new FrontendController();
 	$handleRequest->handleRequest();
 ?>
 </body>
